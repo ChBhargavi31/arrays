@@ -1,2 +1,25 @@
-# arrays
-matrix elements
+#include<stdio.h>
+int main()
+{
+int a[3][3],i,j;
+for(i=0;i<3;i++)
+for(j=0;j<3;j++)
+{
+printf("enter element at %d%d position ",i+1,j+1);
+scanf("%d",&a[i][j]);
+}
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("%d",a[i][j]);
+}
+{
+sum=sum+a[i][j];
+printf("the sum of the diagonal  elements of a matrix =%d",sum);
+}
+printf("\n");
+}
+return 0;
+}
+
